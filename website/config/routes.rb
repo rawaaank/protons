@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'main/automation'
+
+  get 'main/programming'
+
   get 'main/joinus'
 
   get 'main/gallery_2'

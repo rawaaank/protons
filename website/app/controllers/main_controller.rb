@@ -12,8 +12,12 @@ class MainController < ApplicationController
 
     end
 
-   def joinus
-    render :layout => false
-   end
+    def automation
+
+    end
+
+  def programming
+    
+  end
     
 end
