@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a1f12c-35f1-4258-83fa-83a1e6d6a61d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/app/controllers/main_controller.rb" afterPath="$PROJECT_DIR$/website/app/controllers/main_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/app/views/main/index.html.erb" afterPath="$PROJECT_DIR$/website/app/views/main/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/config/routes.rb" afterPath="$PROJECT_DIR$/website/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/website/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/app/views/main/joinus.html.erb" afterPath="$PROJECT_DIR$/website/app/views/main/joinus.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,116 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
-                <element signature="e#3255#3263#0#HTML" expanded="true" />
-                <element signature="e#3672#3680#0#HTML" expanded="true" />
-                <element signature="e#5126#5132#0#HTML" expanded="true" />
+                <element signature="e#3498#3506#0#HTML" expanded="true" />
+                <element signature="e#3887#3895#0#HTML" expanded="true" />
+                <element signature="e#5233#5239#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/views/main/gallery.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3319#3326#0#HTML" expanded="true" />
-                <element signature="e#3597#3604#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery_2.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/views/main/gallery_2.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3339#3346#0#HTML" expanded="true" />
-                <element signature="e#3615#3622#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/views/main/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="e#3829#3836#0#HTML" expanded="true" />
-                <element signature="e#4869#4877#0#HTML" expanded="true" />
-                <element signature="e#4926#4933#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="e#6097#6104#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joinus.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website/app/views/main/joinus.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robotics.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/views/main/robotics.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="139" column="6" lean-forward="false" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#7334#7340#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/app/controllers/main_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -139,12 +39,12 @@
       <list>
         <option value="$PROJECT_DIR$/website/config/routes.rb" />
         <option value="$PROJECT_DIR$/website/app/views/main/robotics.html.erb" />
-        <option value="$PROJECT_DIR$/website/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/website/app/views/main/gallery.html.erb" />
         <option value="$PROJECT_DIR$/website/app/views/main/gallery_2.html.erb" />
         <option value="$PROJECT_DIR$/website/app/views/main/index.html.erb" />
         <option value="$PROJECT_DIR$/website/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/website/app/views/main/joinus.html.erb" />
+        <option value="$PROJECT_DIR$/website/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -216,6 +116,14 @@
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="active-webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="active-webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503488468609</updated>
-      <workItem from="1503488483008" duration="4070000" />
+      <workItem from="1503488483008" duration="5218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4070000" />
+    <option name="totallyTimeSpent" value="5218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -310,31 +218,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#3255#3263#0#HTML" expanded="true" />
-            <element signature="e#3672#3680#0#HTML" expanded="true" />
-            <element signature="e#5126#5132#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,6 +267,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/app/views/main/joinus.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/app/controllers/main_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -387,11 +291,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/app/views/main/joinus.html.erb">
+    <entry file="file://$PROJECT_DIR$/website/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#3498#3506#0#HTML" expanded="true" />
+            <element signature="e#3887#3895#0#HTML" expanded="true" />
+            <element signature="e#5233#5239#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
