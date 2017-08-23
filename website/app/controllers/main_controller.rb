@@ -11,5 +11,9 @@ class MainController < ApplicationController
     def robotics 
 
     end
+
+   def joinus
+    render :layout => false
+   end
     
 end

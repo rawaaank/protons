@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'main/joinus'
+
   get 'main/gallery_2'
 
   get 'main/robotics'
