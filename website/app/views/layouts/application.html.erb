@@ -1,124 +1,128 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Protons</title>
-    <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <title>Protons</title>
+  <%= csrf_meta_tags %>
 
-  <body>
-    <%= yield %>
-      <div class="wrapper row1">
-          <header id="header" class="hoc clear"> 
+
+  <%= stylesheet_link_tag 'default', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload' %>
+
+
+  <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <script src="layout/scripts/jquery.min.js"></script>
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
     <!-- ################################################################################################ -->
-              <h1>
-                  <%= link_to image_tag('http://protons.alexsb.org/media/protons-black.png'), index_path :alt => 'Logo' %> </h1>
+    <h1><a href="index.html"><img src="http://protons.alexsb.org/media/protons-black.png" alt="Logo"></a></h1>
     <!-- ################################################################################################ -->
-          </header>
-      </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-      <div class="wrapper row4">
-          <nav id="mainav" class="hoc clear"> 
+  </header>
+</div>
+<div class="wrapper row4">
+  <nav id="mainav" class="hoc clear">
     <!-- ################################################################################################ -->
-              <ul class="clear">
-                  <li class="active"><%= link_to "Home", index_path %></li>
-                  <li><%= link_to "Gallery", gallery_path %>
-                  </li>
-                  <li><a class="drop" href="#">Tracks</a>
-                      <ul>
-                          <li><%= link_to "Robotics", robotics_path %></li>
-                          <li><a href="#"> Programming </a></li>
-                          <li><a href="#">Automation</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="#">Join Us</a></li>
-              </ul>
+    <ul class="clear">
+      <li class="active"><a href="/main/index">Home</a></li>
+      <li><a href="/main/gallery">Gallery</a>
+      </li>
+      <li><a class="drop" href="#">Tracks</a>
+        <ul>
+          <li><a href="/main/robotics">Robotics</a></li>
+          <li><a href="/main/programming"> Programming </a></li>
+          <li><a href="/main/automation">Automation</a></li>
+        </ul>
+      </li>
+      <li><a href="/main/joinus">Join Us</a></li>
+    </ul>
     <!-- ################################################################################################ -->
-          </nav>
-      </div>
-         <!-- ################################################################################################ -->
-          <!-- ################################################################################################ -->
-          <!-- ################################################################################################ -->
-      <div class="wrapper row4">
-          <footer id="footer" class="hoc clear"> 
+  </nav>
+</div>
+
+<%= yield %>
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
-              <div class="one_third first">
-                  <h6 class="heading">Find Us At</h6>
-                  <ul class="nospace btmspace-30 linklist contact">
-                      <li><i class="fa fa-map-marker"></i>
-                          <address>
-                              Faculty of Engineering Alexandria university, Electrical Engineering building ground floor <br> Alexandria, Egypt
-                          </address>
-                      </li>
-                      <li><i class="fa fa-phone"></i> (+20) 111-424-2927</li>
-                      <li><i class="fa fa-envelope-o"></i> info@alexsb.com</li>
-                  </ul>
-                  <ul class="faico clear">
-                      <li><%= link_to 'https://www.facebook.com/ProtonsAlexSB/', :class => "faicon-facebook", :target => '_blank' %>
-                            <i class="fa fa-facebook"></i> 
-                            <% end %>
-                      </li>
-                      <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                      <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                      <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-                  </ul>
-              </div>
-              <div class="one_third">
-                  <h6 class="heading">In faucibus orci luctus</h6>
-                  <ul class="nospace linklist">
-                      <li>
-                          <article>
-              <h2 class="nospace font-x1"><a href="#">Ultrices posuere cubilia</a></h2>
-                              <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-                              <p class="nospace">Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada [&hellip;]</p>
-                          </article>
-                      </li>
-                      <li>
-            <article>
-                <h2 class="nospace font-x1"><a href="#">Curae cras tincidunt eros</a></h2>
-                <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-                <p class="nospace">In id semper turpis in tristique dui ut ac mauris magna nunc eros enim [&hellip;]</p>
+    <div class="one_third first">
+      <h6 class="heading">Find Us At</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+            Faculty of Engineering Alexandria university, Electrical Engineering building ground floor <br> Alexandria,
+            Egypt
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> (+20) 111-424-2927</li>
+        <li><i class="fa fa-envelope-o"></i> info@alexsb.com</li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="https://www.facebook.com/ProtonsAlexSB/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">In faucibus orci luctus</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Ultrices posuere cubilia</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace">Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada [&hellip;]</p>
           </article>
-                      </li>
-                  </ul>
-              </div>
-              <div class="one_third">
-                  <h6 class="heading">Contact Us</h6>
-                  <p class="nospace btmspace-30">We are happy to receive any questions or suggestions from you.</p>
-                  <form method="post" action="#">
-                      <fieldset>
-            <legend>Contact Us:</legend>
-                          <input class="btmspace-15" type="text" value="" placeholder="Name">
-                          <input class="btmspace-15" type="text" value="" placeholder="Email">
-                          <input class="btmspace-15" type="text" value="" placeholder="Message">
-                          <button type="submit" value="submit">Submit</button>
-                      </fieldset>
-                  </form>
-              </div>
+        </li>
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Curae cras tincidunt eros</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace">In id semper turpis in tristique dui ut ac mauris magna nunc eros enim [&hellip;]</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Contact Us</h6>
+      <p class="nospace btmspace-30">We are happy to receive any questions or suggestions from you.</p>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <input class="btmspace-15" type="text" value="" placeholder="Message">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
     <!-- ################################################################################################ -->
-          </footer>
-      </div>
+  </footer>
+</div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-      <div class="wrapper row5">
-          <div id="copyright" class="hoc clear"> 
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
-              <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Protons</a></p>
-              <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Protons</a></p>
+    <p class="fl_right">Template by
+      <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
     <!-- ################################################################################################ -->
-          </div>
-      </div>
+  </div>
+</div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-      <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-      
-  </body>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+</body>
+
 </html>

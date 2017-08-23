@@ -1,8 +1,26 @@
+
+<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+  <section id="breadcrumb" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <ul>
+      <li><a href="/main/index">Home</a></li>
+      <li><a href="/main/gallery">Gallery</a></li>
+      <li><a href="/main/gallery">Robotics Track</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+    <h6 class="heading">Gallery</h6>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
+    <div class="content">
+
       <!-- ################################################################################################ -->
       <div id="gallery">
         <figure>
@@ -21,7 +39,9 @@
             <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/us4sSZI.jpg" alt=""></a></li>
             <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/fpJCAIz.jpg" alt=""></a></li>
           </ul>
-          <figcaption>For the full album, ><%= link_to "click here", "https://www.facebook.com/pg/ProtonsAlexSB/photos/?tab=album&album_id=1320339368033838", :target => "_blank" %>.</figcaption>
+
+          <figcaption>For the full album, <a href="https://www.facebook.com/pg/ProtonsAlexSB/photos/?tab=album&album_id=1320339368033838">click here</a>.</figcaption>
+
         </figure>
       </div>
       <!-- ################################################################################################ -->
@@ -30,10 +50,12 @@
         <ul>
           <li><a href="#">&laquo; Previous</a></li>
           <li class="current"><strong>1</strong></li>
-          <li><%= link_to "2" , gallery_2_path %></li>
-          <li><%= link_to "3", gallery_3_path %></li>
-          <li><%= link_to "4", gallery_4_path %></li>
-          <li><%= link_to "Next &raquo;" , gallery_2_path %></li>
+
+          <li><a href="/main/gallery_2">2</a></li>
+          <li><a href="/main/gallery_3">3</a></li>
+          <li><a href="/main/gallery_4">4</a></li>
+          <li><a href="/main/gallery_2">Next &raquo;</a></li>
+
         </ul>
       </nav>
       <!-- ################################################################################################ -->
