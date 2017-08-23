@@ -1,2 +1,45 @@
-<h1>Main#gallery</h1>
-<p>Find me in app/views/main/gallery.html.erb</p>
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <div id="gallery">
+        <figure>
+          <header class="heading"> Robotics Track (2017)</header>
+          <ul class="nospace clear">
+            <li class="one_quarter first"><a href="#"><img src="http://i.imgur.com/H3gyxIP.jpgg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/NmnX2E3.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/2h6fiLe.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/0sEE2uy.jpg" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="http://i.imgur.com/EFu7oc3.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/7GgQ6I2.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/DeXj2wf.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/3kICK0C.jpg" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="http://i.imgur.com/wvsTAXG.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/DSXthr5.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/us4sSZI.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="http://i.imgur.com/fpJCAIz.jpg" alt=""></a></li>
+          </ul>
+          <figcaption>For the full album, ><%= link_to "click here", "https://www.facebook.com/pg/ProtonsAlexSB/photos/?tab=album&album_id=1320339368033838", :target => "_blank" %>.</figcaption>
+        </figure>
+      </div>
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+      <nav class="pagination">
+        <ul>
+          <li><a href="#">&laquo; Previous</a></li>
+          <li class="current"><strong>1</strong></li>
+          <li><%= link_to "2" , gallery_2_path %></li>
+          <li><%= link_to "3", gallery_3_path %></li>
+          <li><%= link_to "4", gallery_4_path %></li>
+          <li><%= link_to "Next &raquo;" , gallery_2_path %></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
