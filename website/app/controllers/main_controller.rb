@@ -2,14 +2,13 @@ class MainController < ApplicationController
     def index
 
     end
-    def gallery 
-
+    def gallery
     end
-    def gallery_2 
 
+    def gallery_2
     end
-    def robotics 
 
+    def robotics
     end
 
    def joinus
@@ -17,8 +16,8 @@ class MainController < ApplicationController
    end
 
   def automation
-
   end
+
   def programming
 
   end
