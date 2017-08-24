@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+<article>
+  <header>
+    <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
+    <address>
+
+      <%= @post.title %>
+
+    </address>
+    <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
+  </header>
+  <div class="comcont">
+    <p><%= @post.content %> </p>
+  </div>
+</article>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
