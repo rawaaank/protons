@@ -15,5 +15,12 @@ class MainController < ApplicationController
    def joinus
     render :layout => false
    end
+
+  def automation
+
+  end
+  def programming
+
+  end
     
 end
