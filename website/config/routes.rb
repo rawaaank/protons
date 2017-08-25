@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'main/gallery_3'
 
   get 'main/gallery_4'
