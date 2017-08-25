@@ -26,7 +26,7 @@ class MainController < ApplicationController
   end
 
   def joinus
-    render 'controller/action', :layout => false
+    render 'joinus', :layout => false
   end
 
   def s_user
