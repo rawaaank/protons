@@ -39,7 +39,13 @@
           <li><a href="/main/automation">Automation</a></li>
         </ul>
       </li>
+      <% unless current_user %>
       <li><a href="/users/sign_up">Join Us</a></li>
+      <% end %>
+
+      <% if current_user %>
+          <li><a href="/users/<% current_user.id %>">Profile</a></li>
+      <% end %>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
