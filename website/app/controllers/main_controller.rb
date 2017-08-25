@@ -29,4 +29,8 @@ class MainController < ApplicationController
     render 'controller/action', :layout => false
   end
 
+  def s_user
+
+  end
+
 end
