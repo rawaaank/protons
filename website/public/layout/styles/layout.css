@@ -607,6 +607,11 @@ table a, #comments a{background-color:inherit;}
 	.split section{float:none; width:100%; padding:10% 5%;}
 }
 
-article img {
+.article-img {
   height:204px !important;
+}
+
+.gallery-img {
+  height:222px;
+  width: 222px;
 }

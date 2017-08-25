@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'main/gallery_3'
+
+  get 'main/gallery_4'
+
   get 'main/automation'
 
   get 'main/programming'
